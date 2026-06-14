@@ -1,0 +1,703 @@
+[2026-06-14T09:17:08.934Z] [CONNECT] Socket: siM4JBnbX9iHxx_TAAAB | User: 4e009l00mqdk57tx
+[2026-06-14T09:17:09.934Z] [CONNECT] Socket: 1Jht9RxOdGWWnK9RAAAD | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:17:30.358Z] Socket disconnected: siM4JBnbX9iHxx_TAAAB
+[2026-06-14T09:17:30.455Z] [CONNECT] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx
+[2026-06-14T09:17:31.253Z] Socket disconnected: 1Jht9RxOdGWWnK9RAAAD
+[2026-06-14T09:17:31.381Z] [CONNECT] Socket: 7-_UAp0a5aOabzFAAAAH | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:18:02.563Z] [CREATE-ROOM] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:18:02.566Z] [CREATE-ROOM] New room generated: hb7l8lu
+[2026-06-14T09:18:02.608Z] [CREATE-ROOM] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx | Requested Room: hb7l8lu
+[2026-06-14T09:18:02.610Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hb7l8lu
+[2026-06-14T09:18:02.614Z] [LEAVE-ROOM] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:02.617Z] [LEAVE-ROOM] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:02.619Z] [CREATE-ROOM] Socket: _vEKM1VV3BMP5sLfAAAF | User: 4e009l00mqdk57tx | Requested Room: hb7l8lu
+[2026-06-14T09:18:02.622Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hb7l8lu
+[2026-06-14T09:18:07.432Z] Socket disconnected: 7-_UAp0a5aOabzFAAAAH
+[2026-06-14T09:18:10.094Z] [CONNECT] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:18:10.329Z] [JOIN-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:10.331Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:18:10.334Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: _vEKM1VV3BMP5sLfAAAF
+[2026-06-14T09:18:10.336Z] Socket lVZVKRaZ4yKWJkgcAAAJ joined room: hb7l8lu
+[2026-06-14T09:18:10.357Z] [LEAVE-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:10.360Z] [LEAVE-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:10.363Z] [JOIN-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:10.366Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:18:10.369Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: _vEKM1VV3BMP5sLfAAAF
+[2026-06-14T09:18:10.373Z] Socket lVZVKRaZ4yKWJkgcAAAJ joined room: hb7l8lu
+[2026-06-14T09:18:25.993Z] Socket disconnected: _vEKM1VV3BMP5sLfAAAF
+[2026-06-14T09:18:26.286Z] [CONNECT] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx
+[2026-06-14T09:18:26.411Z] [CREATE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Requested Room: hb7l8lu
+[2026-06-14T09:18:26.414Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hb7l8lu
+[2026-06-14T09:18:26.417Z] [CLAIM-ROOM] Receiver is already here! Emitting peer-joined to Sender.
+[2026-06-14T09:18:26.438Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:26.442Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:26.445Z] [CREATE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Requested Room: hb7l8lu
+[2026-06-14T09:18:26.448Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hb7l8lu
+[2026-06-14T09:18:26.451Z] [CLAIM-ROOM] Receiver is already here! Emitting peer-joined to Sender.
+[2026-06-14T09:18:44.630Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:44.635Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: hb7l8lu
+[2026-06-14T09:18:46.879Z] [LEAVE-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:46.880Z] [LEAVE-ROOM] Socket: lVZVKRaZ4yKWJkgcAAAJ | User: mjtjndrxmqdk6xz7 | Room: hb7l8lu
+[2026-06-14T09:18:52.677Z] [CREATE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:18:52.679Z] [CREATE-ROOM] New room generated: ioxwfdt
+[2026-06-14T09:18:52.703Z] [CREATE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Requested Room: ioxwfdt
+[2026-06-14T09:18:52.707Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room ioxwfdt
+[2026-06-14T09:18:52.713Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:18:52.717Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:18:52.722Z] [CREATE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Requested Room: ioxwfdt
+[2026-06-14T09:18:52.726Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room ioxwfdt
+[2026-06-14T09:18:57.965Z] Socket disconnected: lVZVKRaZ4yKWJkgcAAAJ
+[2026-06-14T09:19:00.836Z] [CONNECT] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:19:01.027Z] [JOIN-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:19:01.029Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:19:01.031Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xdbRYkIvWvFMPUYKAAAL
+[2026-06-14T09:19:01.035Z] Socket tiKNqSx06nf-EZo_AAAN joined room: ioxwfdt
+[2026-06-14T09:19:01.060Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:19:01.063Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:19:01.067Z] [JOIN-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:19:01.070Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:19:01.074Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xdbRYkIvWvFMPUYKAAAL
+[2026-06-14T09:19:01.078Z] Socket tiKNqSx06nf-EZo_AAAN joined room: ioxwfdt
+[2026-06-14T09:20:28.905Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:20:28.908Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:20:30.901Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:20:30.923Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:20:56.849Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:20:56.854Z] [LEAVE-ROOM] Socket: xdbRYkIvWvFMPUYKAAAL | User: 4e009l00mqdk57tx | Room: ioxwfdt
+[2026-06-14T09:20:58.610Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:20:58.614Z] [LEAVE-ROOM] Socket: tiKNqSx06nf-EZo_AAAN | User: mjtjndrxmqdk6xz7 | Room: ioxwfdt
+[2026-06-14T09:21:00.211Z] Socket disconnected: xdbRYkIvWvFMPUYKAAAL
+[2026-06-14T09:21:00.492Z] [CONNECT] Socket: GPkbmWrP3IZ7V3qMAAAP | User: 4e009l00mqdk57tx
+[2026-06-14T09:21:01.327Z] Socket disconnected: GPkbmWrP3IZ7V3qMAAAP
+[2026-06-14T09:21:01.607Z] [CONNECT] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx
+[2026-06-14T09:21:08.648Z] [CREATE-ROOM] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:21:08.650Z] [CREATE-ROOM] New room generated: 7gzejes
+[2026-06-14T09:21:08.683Z] [CREATE-ROOM] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx | Requested Room: 7gzejes
+[2026-06-14T09:21:08.685Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 7gzejes
+[2026-06-14T09:21:08.688Z] [LEAVE-ROOM] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:21:08.691Z] [LEAVE-ROOM] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:21:08.694Z] [CREATE-ROOM] Socket: I8GjUDS7Mjnz2WjjAAAR | User: 4e009l00mqdk57tx | Requested Room: 7gzejes
+[2026-06-14T09:21:08.697Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 7gzejes
+[2026-06-14T09:21:13.421Z] Socket disconnected: tiKNqSx06nf-EZo_AAAN
+[2026-06-14T09:21:17.507Z] [CONNECT] Socket: P_1Tt8Ma7pse0yi8AAAT | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:21:17.542Z] [JOIN-ROOM] Socket: P_1Tt8Ma7pse0yi8AAAT | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:17.545Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:21:17.546Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: I8GjUDS7Mjnz2WjjAAAR
+[2026-06-14T09:21:17.550Z] Socket P_1Tt8Ma7pse0yi8AAAT joined room: 7gzejes
+[2026-06-14T09:21:17.568Z] [LEAVE-ROOM] Socket: P_1Tt8Ma7pse0yi8AAAT | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:17.572Z] [LEAVE-ROOM] Socket: P_1Tt8Ma7pse0yi8AAAT | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:17.575Z] [JOIN-ROOM] Socket: P_1Tt8Ma7pse0yi8AAAT | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:17.578Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:21:17.582Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: I8GjUDS7Mjnz2WjjAAAR
+[2026-06-14T09:21:17.586Z] Socket P_1Tt8Ma7pse0yi8AAAT joined room: 7gzejes
+[2026-06-14T09:21:30.749Z] Socket disconnected: P_1Tt8Ma7pse0yi8AAAT
+[2026-06-14T09:21:32.985Z] [CONNECT] Socket: tUCut8_h3boO__rxAAAV | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:21:33.112Z] [JOIN-ROOM] Socket: tUCut8_h3boO__rxAAAV | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:33.114Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:21:33.117Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: I8GjUDS7Mjnz2WjjAAAR
+[2026-06-14T09:21:33.120Z] Socket tUCut8_h3boO__rxAAAV joined room: 7gzejes
+[2026-06-14T09:21:33.138Z] [LEAVE-ROOM] Socket: tUCut8_h3boO__rxAAAV | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:33.142Z] [LEAVE-ROOM] Socket: tUCut8_h3boO__rxAAAV | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:33.145Z] [JOIN-ROOM] Socket: tUCut8_h3boO__rxAAAV | User: mjtjndrxmqdk6xz7 | Room: 7gzejes
+[2026-06-14T09:21:33.148Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:21:33.152Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: I8GjUDS7Mjnz2WjjAAAR
+[2026-06-14T09:21:33.155Z] Socket tUCut8_h3boO__rxAAAV joined room: 7gzejes
+[2026-06-14T09:22:38.975Z] [CONNECT] Socket: FCfRMeRIRpQS76AoAAAC | User: 4e009l00mqdk57tx
+[2026-06-14T09:22:38.986Z] [CONNECT] Socket: 564aYZOclBYHlHCbAAAD | User: mjtjndrxmqdk6xz7
+[2026-06-14T09:23:24.846Z] Socket disconnected: 564aYZOclBYHlHCbAAAD
+[2026-06-14T09:23:27.527Z] Socket disconnected: FCfRMeRIRpQS76AoAAAC
+[2026-06-14T09:23:27.824Z] [CONNECT] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx
+[2026-06-14T09:23:27.940Z] [CREATE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Requested Room: 7gzejes
+[2026-06-14T09:23:27.943Z] [CREATE-ROOM] New room generated: 7gzejes
+[2026-06-14T09:23:27.962Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:23:27.966Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:23:27.969Z] [CREATE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Requested Room: 7gzejes
+[2026-06-14T09:23:27.972Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 7gzejes
+[2026-06-14T09:23:36.901Z] [CONNECT] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw
+[2026-06-14T09:23:36.935Z] [JOIN-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:36.937Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:23:36.939Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: oB9coZA5az6D1cZFAAAF
+[2026-06-14T09:23:36.943Z] Socket 6Or1R-XfhHeWCA99AAAH joined room: 7gzejes
+[2026-06-14T09:23:36.947Z] [LEAVE-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:36.950Z] [LEAVE-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:36.953Z] [JOIN-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:36.956Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:23:36.957Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: oB9coZA5az6D1cZFAAAF
+[2026-06-14T09:23:36.960Z] Socket 6Or1R-XfhHeWCA99AAAH joined room: 7gzejes
+[2026-06-14T09:23:36.966Z] [OFFER] Socket: oB9coZA5az6D1cZFAAAF -> Peer: 6Or1R-XfhHeWCA99AAAH | Room: 7gzejes
+[2026-06-14T09:23:36.973Z] [OFFER] Socket: oB9coZA5az6D1cZFAAAF -> Peer: 6Or1R-XfhHeWCA99AAAH | Room: 7gzejes
+[2026-06-14T09:23:36.976Z] [ANSWER] Socket: 6Or1R-XfhHeWCA99AAAH -> Peer: oB9coZA5az6D1cZFAAAF | Room: 7gzejes
+[2026-06-14T09:23:36.979Z] [ICE-CANDIDATE] Socket: oB9coZA5az6D1cZFAAAF -> Peer: 6Or1R-XfhHeWCA99AAAH | Room: 7gzejes
+[2026-06-14T09:23:36.983Z] [ICE-CANDIDATE] Socket: 6Or1R-XfhHeWCA99AAAH -> Peer: oB9coZA5az6D1cZFAAAF | Room: 7gzejes
+[2026-06-14T09:23:36.988Z] [ANSWER] Socket: 6Or1R-XfhHeWCA99AAAH -> Peer: oB9coZA5az6D1cZFAAAF | Room: 7gzejes
+[2026-06-14T09:23:36.991Z] [ICE-CANDIDATE] Socket: 6Or1R-XfhHeWCA99AAAH -> Peer: oB9coZA5az6D1cZFAAAF | Room: 7gzejes
+[2026-06-14T09:23:36.995Z] [ICE-CANDIDATE] Socket: oB9coZA5az6D1cZFAAAF -> Peer: 6Or1R-XfhHeWCA99AAAH | Room: 7gzejes
+[2026-06-14T09:23:44.945Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:23:44.953Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: 7gzejes
+[2026-06-14T09:23:45.824Z] [LEAVE-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:45.827Z] [LEAVE-ROOM] Socket: 6Or1R-XfhHeWCA99AAAH | User: q4w57gk9mqdkualw | Room: 7gzejes
+[2026-06-14T09:23:51.501Z] [CREATE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:23:51.503Z] [CREATE-ROOM] New room generated: oop1hxp
+[2026-06-14T09:23:51.531Z] [CREATE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:23:51.535Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room oop1hxp
+[2026-06-14T09:23:51.538Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:23:51.541Z] [LEAVE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:23:51.544Z] [CREATE-ROOM] Socket: oB9coZA5az6D1cZFAAAF | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:23:51.548Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room oop1hxp
+[2026-06-14T09:23:58.384Z] Socket disconnected: 6Or1R-XfhHeWCA99AAAH
+[2026-06-14T09:23:59.909Z] [CONNECT] Socket: RFCFxHZtQQpnuGjfAAAJ | User: q4w57gk9mqdkualw
+[2026-06-14T09:23:59.942Z] [JOIN-ROOM] Socket: RFCFxHZtQQpnuGjfAAAJ | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:23:59.945Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:23:59.947Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: oB9coZA5az6D1cZFAAAF
+[2026-06-14T09:23:59.950Z] Socket RFCFxHZtQQpnuGjfAAAJ joined room: oop1hxp
+[2026-06-14T09:23:59.954Z] [LEAVE-ROOM] Socket: RFCFxHZtQQpnuGjfAAAJ | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:23:59.958Z] [LEAVE-ROOM] Socket: RFCFxHZtQQpnuGjfAAAJ | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:23:59.960Z] [JOIN-ROOM] Socket: RFCFxHZtQQpnuGjfAAAJ | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:23:59.964Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:23:59.966Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: oB9coZA5az6D1cZFAAAF
+[2026-06-14T09:23:59.968Z] Socket RFCFxHZtQQpnuGjfAAAJ joined room: oop1hxp
+[2026-06-14T09:23:59.973Z] [OFFER] Socket: oB9coZA5az6D1cZFAAAF -> Peer: RFCFxHZtQQpnuGjfAAAJ | Room: oop1hxp
+[2026-06-14T09:23:59.980Z] [OFFER] Socket: oB9coZA5az6D1cZFAAAF -> Peer: RFCFxHZtQQpnuGjfAAAJ | Room: oop1hxp
+[2026-06-14T09:23:59.985Z] [ANSWER] Socket: RFCFxHZtQQpnuGjfAAAJ -> Peer: oB9coZA5az6D1cZFAAAF | Room: oop1hxp
+[2026-06-14T09:23:59.988Z] [ICE-CANDIDATE] Socket: RFCFxHZtQQpnuGjfAAAJ -> Peer: oB9coZA5az6D1cZFAAAF | Room: oop1hxp
+[2026-06-14T09:23:59.991Z] [ANSWER] Socket: RFCFxHZtQQpnuGjfAAAJ -> Peer: oB9coZA5az6D1cZFAAAF | Room: oop1hxp
+[2026-06-14T09:23:59.994Z] [ICE-CANDIDATE] Socket: RFCFxHZtQQpnuGjfAAAJ -> Peer: oB9coZA5az6D1cZFAAAF | Room: oop1hxp
+[2026-06-14T09:23:59.998Z] [ICE-CANDIDATE] Socket: oB9coZA5az6D1cZFAAAF -> Peer: RFCFxHZtQQpnuGjfAAAJ | Room: oop1hxp
+[2026-06-14T09:24:00.099Z] [ICE-CANDIDATE] Socket: oB9coZA5az6D1cZFAAAF -> Peer: RFCFxHZtQQpnuGjfAAAJ | Room: oop1hxp
+[2026-06-14T09:24:34.238Z] [CONNECT] Socket: Cz13mkQ_Wu8G8PldAAAB | User: 4e009l00mqdk57tx
+[2026-06-14T09:24:35.910Z] [CONNECT] Socket: ejVYgyE1UGbMLomuAAAD | User: q4w57gk9mqdkualw
+[2026-06-14T09:24:43.976Z] Socket disconnected: ejVYgyE1UGbMLomuAAAD
+[2026-06-14T09:24:43.990Z] Socket disconnected: Cz13mkQ_Wu8G8PldAAAB
+[2026-06-14T09:24:44.275Z] [CONNECT] Socket: m6NRWt2VfQOKmTKLAAAF | User: q4w57gk9mqdkualw
+[2026-06-14T09:24:44.289Z] [JOIN-ROOM] Socket: m6NRWt2VfQOKmTKLAAAF | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:24:44.292Z] [JOIN-ROOM] Success: false
+[2026-06-14T09:24:44.295Z] [JOIN-ROOM] Failed! Room full or missing.
+[2026-06-14T09:24:44.310Z] [LEAVE-ROOM] Socket: m6NRWt2VfQOKmTKLAAAF | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:24:44.316Z] [LEAVE-ROOM] Socket: m6NRWt2VfQOKmTKLAAAF | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:24:44.323Z] [JOIN-ROOM] Socket: m6NRWt2VfQOKmTKLAAAF | User: q4w57gk9mqdkualw | Room: oop1hxp
+[2026-06-14T09:24:44.331Z] [JOIN-ROOM] Success: false
+[2026-06-14T09:24:44.338Z] [JOIN-ROOM] Failed! Room full or missing.
+[2026-06-14T09:24:44.351Z] [CONNECT] Socket: Ll2DmgyGy2fT6zvgAAAH | User: 4e009l00mqdk57tx
+[2026-06-14T09:24:44.494Z] [CREATE-ROOM] Socket: Ll2DmgyGy2fT6zvgAAAH | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:24:44.497Z] [CREATE-ROOM] New room generated: oop1hxp
+[2026-06-14T09:24:44.513Z] [LEAVE-ROOM] Socket: Ll2DmgyGy2fT6zvgAAAH | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:24:44.516Z] [LEAVE-ROOM] Socket: Ll2DmgyGy2fT6zvgAAAH | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:24:44.519Z] [CREATE-ROOM] Socket: Ll2DmgyGy2fT6zvgAAAH | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:24:44.522Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room oop1hxp
+[2026-06-14T09:24:46.501Z] Socket disconnected: Ll2DmgyGy2fT6zvgAAAH
+[2026-06-14T09:24:46.797Z] [CONNECT] Socket: 6XKOp5NuVt1J0F13AAAJ | User: 4e009l00mqdk57tx
+[2026-06-14T09:24:46.911Z] [CREATE-ROOM] Socket: 6XKOp5NuVt1J0F13AAAJ | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:24:46.913Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room oop1hxp
+[2026-06-14T09:24:46.927Z] [LEAVE-ROOM] Socket: 6XKOp5NuVt1J0F13AAAJ | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:24:46.930Z] [LEAVE-ROOM] Socket: 6XKOp5NuVt1J0F13AAAJ | User: 4e009l00mqdk57tx | Room: oop1hxp
+[2026-06-14T09:24:46.931Z] [CREATE-ROOM] Socket: 6XKOp5NuVt1J0F13AAAJ | User: 4e009l00mqdk57tx | Requested Room: oop1hxp
+[2026-06-14T09:24:46.934Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room oop1hxp
+[2026-06-14T09:24:48.786Z] Socket disconnected: 6XKOp5NuVt1J0F13AAAJ
+[2026-06-14T09:24:48.914Z] [CONNECT] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx
+[2026-06-14T09:24:51.331Z] [CONNECT] Socket: ikpRv-eehKpVQeNGAAAN | User: q4w57gk9mqdkualw
+[2026-06-14T09:24:51.489Z] Socket disconnected: m6NRWt2VfQOKmTKLAAAF
+[2026-06-14T09:24:58.527Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:24:58.529Z] [CREATE-ROOM] New room generated: s1b24sx
+[2026-06-14T09:24:58.554Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:24:58.556Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:24:58.561Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:24:58.565Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:24:58.568Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:24:58.571Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:25:02.927Z] Socket disconnected: ikpRv-eehKpVQeNGAAAN
+[2026-06-14T09:25:02.960Z] [CONNECT] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw
+[2026-06-14T09:25:02.992Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:25:02.995Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:25:02.997Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: -z97LjGN0zGDlRLUAAAL
+[2026-06-14T09:25:03.000Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:25:03.005Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:25:03.010Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:25:03.012Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:25:03.014Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:25:03.017Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: -z97LjGN0zGDlRLUAAAL
+[2026-06-14T09:25:03.020Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:25:03.023Z] [OFFER] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:25:03.031Z] [ANSWER] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:25:03.036Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:25:03.040Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:25:03.046Z] [OFFER] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:25:03.048Z] [ICE-CANDIDATE] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:25:03.053Z] [ANSWER] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:25:03.057Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:25:03.157Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:26:10.974Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:10.977Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:10.979Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:26:10.982Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:26:12.914Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:12.917Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:26:12.922Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: null
+[2026-06-14T09:26:12.925Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:26:12.932Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:12.934Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:12.935Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:12.937Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:26:12.940Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: null
+[2026-06-14T09:26:12.944Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:26:12.966Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:26:12.968Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:26:12.970Z] [CLAIM-ROOM] Receiver is already here! Emitting peer-joined to Sender.
+[2026-06-14T09:26:12.980Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:26:12.983Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:26:12.990Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:26:12.992Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:26:12.994Z] [CLAIM-ROOM] Receiver is already here! Emitting peer-joined to Sender.
+[2026-06-14T09:26:13.056Z] [OFFER] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:26:13.068Z] [ANSWER] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:26:13.077Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:26:13.093Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:26:13.118Z] [ICE-CANDIDATE] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:26:13.138Z] [ICE-CANDIDATE] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:26:14.903Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:26:14.911Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:43:58.954Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:43:58.960Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:43:58.962Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:43:58.965Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:44:04.950Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:44:04.952Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:44:04.954Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:04.958Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:44:04.964Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: -z97LjGN0zGDlRLUAAAL
+[2026-06-14T09:44:04.970Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:44:04.973Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:04.977Z] [LEAVE-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:04.980Z] [JOIN-ROOM] Socket: ShlsQHu0F083GXT6AAAP | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:04.983Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:44:04.984Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: -z97LjGN0zGDlRLUAAAL
+[2026-06-14T09:44:04.986Z] Socket ShlsQHu0F083GXT6AAAP joined room: s1b24sx
+[2026-06-14T09:44:04.989Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:44:04.992Z] [LEAVE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:44:04.995Z] [CREATE-ROOM] Socket: -z97LjGN0zGDlRLUAAAL | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:44:04.997Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:44:04.998Z] [CLAIM-ROOM] Receiver is already here! Emitting peer-joined to Sender.
+[2026-06-14T09:44:05.185Z] [OFFER] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:44:05.210Z] [ANSWER] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:44:05.226Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:44:05.234Z] [ICE-CANDIDATE] Socket: ShlsQHu0F083GXT6AAAP -> Peer: -z97LjGN0zGDlRLUAAAL | Room: s1b24sx
+[2026-06-14T09:44:05.266Z] [ICE-CANDIDATE] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:44:05.290Z] [ICE-CANDIDATE] Socket: -z97LjGN0zGDlRLUAAAL -> Peer: ShlsQHu0F083GXT6AAAP | Room: s1b24sx
+[2026-06-14T09:44:32.016Z] [CONNECT] Socket: 5fF_UBKFNKkFhX6HAAAB | User: 4e009l00mqdk57tx
+[2026-06-14T09:44:32.916Z] [CONNECT] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw
+[2026-06-14T09:44:58.914Z] [LEAVE-ROOM] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:58.924Z] [LEAVE-ROOM] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:58.930Z] [JOIN-ROOM] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:44:58.933Z] [JOIN-ROOM] Success: false
+[2026-06-14T09:44:58.935Z] [JOIN-ROOM] Failed! Room full or missing.
+[2026-06-14T09:46:15.006Z] [LEAVE-ROOM] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:46:15.013Z] [LEAVE-ROOM] Socket: UxE9uyozEji8bj_-AAAD | User: q4w57gk9mqdkualw | Room: s1b24sx
+[2026-06-14T09:46:24.141Z] Socket disconnected: 5fF_UBKFNKkFhX6HAAAB
+[2026-06-14T09:46:24.483Z] [CONNECT] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx
+[2026-06-14T09:46:24.627Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:46:24.633Z] [CREATE-ROOM] New room generated: s1b24sx
+[2026-06-14T09:46:24.652Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:46:24.664Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:46:24.675Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: s1b24sx
+[2026-06-14T09:46:24.685Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s1b24sx
+[2026-06-14T09:46:26.381Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:46:26.386Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: s1b24sx
+[2026-06-14T09:46:32.895Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:46:32.898Z] [CREATE-ROOM] New room generated: lapwhei
+[2026-06-14T09:46:32.924Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: lapwhei
+[2026-06-14T09:46:32.927Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room lapwhei
+[2026-06-14T09:46:32.933Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: lapwhei
+[2026-06-14T09:46:32.938Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: lapwhei
+[2026-06-14T09:46:32.942Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: lapwhei
+[2026-06-14T09:46:32.950Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room lapwhei
+[2026-06-14T09:46:38.228Z] Socket disconnected: UxE9uyozEji8bj_-AAAD
+[2026-06-14T09:46:40.415Z] [CONNECT] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw
+[2026-06-14T09:46:40.453Z] [JOIN-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:46:40.455Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:46:40.457Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: eyKrIs0GIulmH9T5AAAF
+[2026-06-14T09:46:40.462Z] Socket 0xm3oaOtlfu42KfrAAAH joined room: lapwhei
+[2026-06-14T09:46:40.469Z] [LEAVE-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:46:40.482Z] [LEAVE-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:46:40.485Z] [JOIN-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:46:40.492Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:46:40.497Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: eyKrIs0GIulmH9T5AAAF
+[2026-06-14T09:46:40.505Z] Socket 0xm3oaOtlfu42KfrAAAH joined room: lapwhei
+[2026-06-14T09:46:40.514Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: 0xm3oaOtlfu42KfrAAAH | Room: lapwhei
+[2026-06-14T09:46:40.520Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: 0xm3oaOtlfu42KfrAAAH | Room: lapwhei
+[2026-06-14T09:46:40.544Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: 0xm3oaOtlfu42KfrAAAH | Room: lapwhei
+[2026-06-14T09:46:40.555Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: 0xm3oaOtlfu42KfrAAAH | Room: lapwhei
+[2026-06-14T09:46:40.563Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: 0xm3oaOtlfu42KfrAAAH | Room: lapwhei
+[2026-06-14T09:46:40.574Z] [ANSWER] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:40.582Z] [ICE-CANDIDATE] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:40.588Z] [ICE-CANDIDATE] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:40.596Z] [ANSWER] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:40.602Z] [ICE-CANDIDATE] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:40.609Z] [ICE-CANDIDATE] Socket: 0xm3oaOtlfu42KfrAAAH -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:46:55.505Z] [LEAVE-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:46:55.509Z] [LEAVE-ROOM] Socket: 0xm3oaOtlfu42KfrAAAH | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:47:03.905Z] Socket disconnected: 0xm3oaOtlfu42KfrAAAH
+[2026-06-14T09:47:03.983Z] [CONNECT] Socket: K-5StVWU-NqRN5hYAAAJ | User: q4w57gk9mqdkualw
+[2026-06-14T09:47:03.998Z] [RESUME-FROM] Socket: K-5StVWU-NqRN5hYAAAJ | User: q4w57gk9mqdkualw | Room: lapwhei | Chunk: 1353
+[2026-06-14T09:47:04.008Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: K-5StVWU-NqRN5hYAAAJ | Room: lapwhei
+[2026-06-14T09:47:04.020Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: K-5StVWU-NqRN5hYAAAJ | Room: lapwhei
+[2026-06-14T09:47:04.032Z] [LEAVE-ROOM] Socket: K-5StVWU-NqRN5hYAAAJ | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:47:04.038Z] [LEAVE-ROOM] Socket: K-5StVWU-NqRN5hYAAAJ | User: q4w57gk9mqdkualw | Room: lapwhei
+[2026-06-14T09:47:04.042Z] [RESUME-FROM] Socket: K-5StVWU-NqRN5hYAAAJ | User: q4w57gk9mqdkualw | Room: lapwhei | Chunk: 1353
+[2026-06-14T09:47:04.049Z] [ANSWER] Socket: K-5StVWU-NqRN5hYAAAJ -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:47:04.058Z] [ICE-CANDIDATE] Socket: K-5StVWU-NqRN5hYAAAJ -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:47:04.073Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: K-5StVWU-NqRN5hYAAAJ | Room: lapwhei
+[2026-06-14T09:47:04.078Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: K-5StVWU-NqRN5hYAAAJ | Room: lapwhei
+[2026-06-14T09:47:04.083Z] [ANSWER] Socket: K-5StVWU-NqRN5hYAAAJ -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:47:04.090Z] [ICE-CANDIDATE] Socket: K-5StVWU-NqRN5hYAAAJ -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:47:04.138Z] [ICE-CANDIDATE] Socket: K-5StVWU-NqRN5hYAAAJ -> Peer: eyKrIs0GIulmH9T5AAAF | Room: lapwhei
+[2026-06-14T09:47:43.934Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: lapwhei
+[2026-06-14T09:47:43.939Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: lapwhei
+[2026-06-14T09:47:49.211Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:47:49.215Z] [CREATE-ROOM] New room generated: hi5ipau
+[2026-06-14T09:47:49.233Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: hi5ipau
+[2026-06-14T09:47:49.237Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hi5ipau
+[2026-06-14T09:47:49.245Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: hi5ipau
+[2026-06-14T09:47:49.255Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: hi5ipau
+[2026-06-14T09:47:49.263Z] [CREATE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Requested Room: hi5ipau
+[2026-06-14T09:47:49.267Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room hi5ipau
+[2026-06-14T09:47:55.921Z] Socket disconnected: K-5StVWU-NqRN5hYAAAJ
+[2026-06-14T09:47:55.983Z] [CONNECT] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw
+[2026-06-14T09:47:55.994Z] [JOIN-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:47:55.998Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:47:56.009Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: eyKrIs0GIulmH9T5AAAF
+[2026-06-14T09:47:56.021Z] Socket y6EYp1TWXIeOEMLjAAAL joined room: hi5ipau
+[2026-06-14T09:47:56.042Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.055Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.070Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.084Z] [LEAVE-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:47:56.090Z] [LEAVE-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:47:56.097Z] [JOIN-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:47:56.100Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:47:56.105Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: eyKrIs0GIulmH9T5AAAF
+[2026-06-14T09:47:56.110Z] Socket y6EYp1TWXIeOEMLjAAAL joined room: hi5ipau
+[2026-06-14T09:47:56.113Z] [ANSWER] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:47:56.120Z] [ICE-CANDIDATE] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:47:56.127Z] [ICE-CANDIDATE] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:47:56.140Z] [OFFER] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.144Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.151Z] [ICE-CANDIDATE] Socket: eyKrIs0GIulmH9T5AAAF -> Peer: y6EYp1TWXIeOEMLjAAAL | Room: hi5ipau
+[2026-06-14T09:47:56.155Z] [ANSWER] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:47:56.166Z] [ICE-CANDIDATE] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:47:56.176Z] [ICE-CANDIDATE] Socket: y6EYp1TWXIeOEMLjAAAL -> Peer: eyKrIs0GIulmH9T5AAAF | Room: hi5ipau
+[2026-06-14T09:48:54.479Z] [LEAVE-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:48:54.485Z] [LEAVE-ROOM] Socket: y6EYp1TWXIeOEMLjAAAL | User: q4w57gk9mqdkualw | Room: hi5ipau
+[2026-06-14T09:48:55.681Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: hi5ipau
+[2026-06-14T09:48:55.685Z] [LEAVE-ROOM] Socket: eyKrIs0GIulmH9T5AAAF | User: 4e009l00mqdk57tx | Room: hi5ipau
+[2026-06-14T09:48:58.056Z] Socket disconnected: y6EYp1TWXIeOEMLjAAAL
+[2026-06-14T09:48:58.142Z] [CONNECT] Socket: ny4Gp600Vix0GHH_AAAN | User: q4w57gk9mqdkualw
+[2026-06-14T09:48:58.228Z] Socket disconnected: ny4Gp600Vix0GHH_AAAN
+[2026-06-14T09:48:58.269Z] [CONNECT] Socket: 6RSz8r1hUzrvvuBTAAAP | User: q4w57gk9mqdkualw
+[2026-06-14T09:48:58.376Z] Socket disconnected: 6RSz8r1hUzrvvuBTAAAP
+[2026-06-14T09:48:58.413Z] [CONNECT] Socket: Fx4dJ1yXsozpn69xAAAR | User: q4w57gk9mqdkualw
+[2026-06-14T09:48:58.550Z] Socket disconnected: Fx4dJ1yXsozpn69xAAAR
+[2026-06-14T09:48:58.590Z] [CONNECT] Socket: QRUlmJsgbQjepU1wAAAT | User: q4w57gk9mqdkualw
+[2026-06-14T09:48:59.738Z] Socket disconnected: eyKrIs0GIulmH9T5AAAF
+[2026-06-14T09:49:00.026Z] [CONNECT] Socket: nrOzVcQkBC4dUWOHAAAV | User: 4e009l00mqdk57tx
+[2026-06-14T09:49:00.404Z] Socket disconnected: nrOzVcQkBC4dUWOHAAAV
+[2026-06-14T09:49:00.687Z] [CONNECT] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx
+[2026-06-14T09:49:21.173Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:49:21.176Z] [CREATE-ROOM] New room generated: 3frsiel
+[2026-06-14T09:49:21.202Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: 3frsiel
+[2026-06-14T09:49:21.205Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 3frsiel
+[2026-06-14T09:49:21.212Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 3frsiel
+[2026-06-14T09:49:21.215Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 3frsiel
+[2026-06-14T09:49:21.219Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: 3frsiel
+[2026-06-14T09:49:21.230Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 3frsiel
+[2026-06-14T09:49:25.878Z] Socket disconnected: QRUlmJsgbQjepU1wAAAT
+[2026-06-14T09:49:27.984Z] [CONNECT] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw
+[2026-06-14T09:49:28.021Z] [JOIN-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:28.025Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:49:28.029Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: Tws6iv07m1cFqRPJAAAX
+[2026-06-14T09:49:28.037Z] Socket QTofRcprVL6FH7nzAAAZ joined room: 3frsiel
+[2026-06-14T09:49:28.056Z] [LEAVE-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:28.065Z] [LEAVE-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:28.076Z] [JOIN-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:28.084Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:49:28.092Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: Tws6iv07m1cFqRPJAAAX
+[2026-06-14T09:49:28.110Z] Socket QTofRcprVL6FH7nzAAAZ joined room: 3frsiel
+[2026-06-14T09:49:28.130Z] [OFFER] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.139Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.148Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.154Z] [OFFER] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.160Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.164Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: QTofRcprVL6FH7nzAAAZ | Room: 3frsiel
+[2026-06-14T09:49:28.175Z] [ANSWER] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:28.181Z] [ICE-CANDIDATE] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:28.188Z] [ICE-CANDIDATE] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:28.195Z] [ANSWER] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:28.204Z] [ICE-CANDIDATE] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:28.210Z] [ICE-CANDIDATE] Socket: QTofRcprVL6FH7nzAAAZ -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 3frsiel
+[2026-06-14T09:49:42.523Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 3frsiel
+[2026-06-14T09:49:42.527Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 3frsiel
+[2026-06-14T09:49:44.395Z] [LEAVE-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:44.400Z] [LEAVE-ROOM] Socket: QTofRcprVL6FH7nzAAAZ | User: q4w57gk9mqdkualw | Room: 3frsiel
+[2026-06-14T09:49:49.457Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:49:49.462Z] [CREATE-ROOM] New room generated: 0g6lc3f
+[2026-06-14T09:49:49.480Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: 0g6lc3f
+[2026-06-14T09:49:49.485Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 0g6lc3f
+[2026-06-14T09:49:49.491Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:49:49.504Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:49:49.510Z] [CREATE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Requested Room: 0g6lc3f
+[2026-06-14T09:49:49.520Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 0g6lc3f
+[2026-06-14T09:49:53.540Z] Socket disconnected: QTofRcprVL6FH7nzAAAZ
+[2026-06-14T09:49:53.592Z] [CONNECT] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw
+[2026-06-14T09:49:53.614Z] [JOIN-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:49:53.617Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:49:53.620Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: Tws6iv07m1cFqRPJAAAX
+[2026-06-14T09:49:53.623Z] Socket 1hGMK4R7H-POCPMWAAAb joined room: 0g6lc3f
+[2026-06-14T09:49:53.630Z] [LEAVE-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:49:53.638Z] [LEAVE-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:49:53.646Z] [JOIN-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:49:53.654Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:49:53.668Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: Tws6iv07m1cFqRPJAAAX
+[2026-06-14T09:49:53.673Z] Socket 1hGMK4R7H-POCPMWAAAb joined room: 0g6lc3f
+[2026-06-14T09:49:53.686Z] [OFFER] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: 1hGMK4R7H-POCPMWAAAb | Room: 0g6lc3f
+[2026-06-14T09:49:53.699Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: 1hGMK4R7H-POCPMWAAAb | Room: 0g6lc3f
+[2026-06-14T09:49:53.706Z] [OFFER] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: 1hGMK4R7H-POCPMWAAAb | Room: 0g6lc3f
+[2026-06-14T09:49:53.711Z] [ICE-CANDIDATE] Socket: Tws6iv07m1cFqRPJAAAX -> Peer: 1hGMK4R7H-POCPMWAAAb | Room: 0g6lc3f
+[2026-06-14T09:49:53.715Z] [ANSWER] Socket: 1hGMK4R7H-POCPMWAAAb -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 0g6lc3f
+[2026-06-14T09:49:53.724Z] [ICE-CANDIDATE] Socket: 1hGMK4R7H-POCPMWAAAb -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 0g6lc3f
+[2026-06-14T09:49:53.731Z] [ANSWER] Socket: 1hGMK4R7H-POCPMWAAAb -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 0g6lc3f
+[2026-06-14T09:49:53.735Z] [ICE-CANDIDATE] Socket: 1hGMK4R7H-POCPMWAAAb -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 0g6lc3f
+[2026-06-14T09:49:53.749Z] [ICE-CANDIDATE] Socket: 1hGMK4R7H-POCPMWAAAb -> Peer: Tws6iv07m1cFqRPJAAAX | Room: 0g6lc3f
+[2026-06-14T09:52:17.927Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:52:17.933Z] [LEAVE-ROOM] Socket: Tws6iv07m1cFqRPJAAAX | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:52:17.944Z] [LEAVE-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:52:17.949Z] [LEAVE-ROOM] Socket: 1hGMK4R7H-POCPMWAAAb | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:52:57.275Z] Socket disconnected: Tws6iv07m1cFqRPJAAAX
+[2026-06-14T09:52:57.525Z] [CONNECT] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx
+[2026-06-14T09:52:57.667Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: 0g6lc3f
+[2026-06-14T09:52:57.671Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 0g6lc3f
+[2026-06-14T09:52:57.695Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:52:57.698Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:52:57.701Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: 0g6lc3f
+[2026-06-14T09:52:57.705Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 0g6lc3f
+[2026-06-14T09:53:00.766Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:53:00.772Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 0g6lc3f
+[2026-06-14T09:53:02.281Z] Socket disconnected: 1hGMK4R7H-POCPMWAAAb
+[2026-06-14T09:53:02.361Z] [CONNECT] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw
+[2026-06-14T09:53:02.374Z] [RESUME-FROM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f | Chunk: 1879
+[2026-06-14T09:53:02.487Z] [LEAVE-ROOM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:53:02.490Z] [LEAVE-ROOM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:53:02.492Z] [RESUME-FROM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f | Chunk: 1879
+[2026-06-14T09:53:03.650Z] [LEAVE-ROOM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:53:03.653Z] [LEAVE-ROOM] Socket: 9M83NLHc4PcpQVkCAAAf | User: q4w57gk9mqdkualw | Room: 0g6lc3f
+[2026-06-14T09:53:14.879Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:53:14.882Z] [CREATE-ROOM] New room generated: s3pt0zq
+[2026-06-14T09:53:14.902Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: s3pt0zq
+[2026-06-14T09:53:14.909Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s3pt0zq
+[2026-06-14T09:53:14.914Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: s3pt0zq
+[2026-06-14T09:53:14.921Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: s3pt0zq
+[2026-06-14T09:53:14.925Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: s3pt0zq
+[2026-06-14T09:53:14.927Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room s3pt0zq
+[2026-06-14T09:53:20.716Z] Socket disconnected: 9M83NLHc4PcpQVkCAAAf
+[2026-06-14T09:53:20.786Z] [CONNECT] Socket: DZv9hY0zy1nRqnzZAAAh | User: q4w57gk9mqdkualw
+[2026-06-14T09:53:20.800Z] [JOIN-ROOM] Socket: DZv9hY0zy1nRqnzZAAAh | User: q4w57gk9mqdkualw | Room: s3pt0zq
+[2026-06-14T09:53:20.802Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:53:20.806Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:53:20.808Z] Socket DZv9hY0zy1nRqnzZAAAh joined room: s3pt0zq
+[2026-06-14T09:53:20.814Z] [LEAVE-ROOM] Socket: DZv9hY0zy1nRqnzZAAAh | User: q4w57gk9mqdkualw | Room: s3pt0zq
+[2026-06-14T09:53:20.818Z] [LEAVE-ROOM] Socket: DZv9hY0zy1nRqnzZAAAh | User: q4w57gk9mqdkualw | Room: s3pt0zq
+[2026-06-14T09:53:20.821Z] [JOIN-ROOM] Socket: DZv9hY0zy1nRqnzZAAAh | User: q4w57gk9mqdkualw | Room: s3pt0zq
+[2026-06-14T09:53:20.823Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:53:20.827Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:53:20.829Z] Socket DZv9hY0zy1nRqnzZAAAh joined room: s3pt0zq
+[2026-06-14T09:53:20.833Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: DZv9hY0zy1nRqnzZAAAh | Room: s3pt0zq
+[2026-06-14T09:53:20.842Z] [ANSWER] Socket: DZv9hY0zy1nRqnzZAAAh -> Peer: xn3B6udGBxYWX5NuAAAd | Room: s3pt0zq
+[2026-06-14T09:53:20.846Z] [ICE-CANDIDATE] Socket: DZv9hY0zy1nRqnzZAAAh -> Peer: xn3B6udGBxYWX5NuAAAd | Room: s3pt0zq
+[2026-06-14T09:53:20.850Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: DZv9hY0zy1nRqnzZAAAh | Room: s3pt0zq
+[2026-06-14T09:53:20.853Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: DZv9hY0zy1nRqnzZAAAh | Room: s3pt0zq
+[2026-06-14T09:53:20.856Z] [ANSWER] Socket: DZv9hY0zy1nRqnzZAAAh -> Peer: xn3B6udGBxYWX5NuAAAd | Room: s3pt0zq
+[2026-06-14T09:53:20.862Z] [ICE-CANDIDATE] Socket: DZv9hY0zy1nRqnzZAAAh -> Peer: xn3B6udGBxYWX5NuAAAd | Room: s3pt0zq
+[2026-06-14T09:53:20.866Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: DZv9hY0zy1nRqnzZAAAh | Room: s3pt0zq
+[2026-06-14T09:53:54.005Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: s3pt0zq
+[2026-06-14T09:53:54.010Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: s3pt0zq
+[2026-06-14T09:54:01.860Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:54:01.864Z] [CREATE-ROOM] New room generated: jeozyo7
+[2026-06-14T09:54:01.880Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: jeozyo7
+[2026-06-14T09:54:01.883Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room jeozyo7
+[2026-06-14T09:54:01.888Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: jeozyo7
+[2026-06-14T09:54:01.895Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: jeozyo7
+[2026-06-14T09:54:01.899Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: jeozyo7
+[2026-06-14T09:54:01.902Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room jeozyo7
+[2026-06-14T09:54:14.490Z] [CONNECT] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw
+[2026-06-14T09:54:14.521Z] [JOIN-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:14.523Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:54:14.526Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:54:14.529Z] Socket J_IDvz4Hkch8VMczAAAj joined room: jeozyo7
+[2026-06-14T09:54:14.534Z] [LEAVE-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:14.537Z] [LEAVE-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:14.540Z] [JOIN-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:14.542Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:54:14.545Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:54:14.549Z] Socket J_IDvz4Hkch8VMczAAAj joined room: jeozyo7
+[2026-06-14T09:54:14.552Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: J_IDvz4Hkch8VMczAAAj | Room: jeozyo7
+[2026-06-14T09:54:14.559Z] [ANSWER] Socket: J_IDvz4Hkch8VMczAAAj -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:14.563Z] [ICE-CANDIDATE] Socket: J_IDvz4Hkch8VMczAAAj -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:14.567Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: J_IDvz4Hkch8VMczAAAj | Room: jeozyo7
+[2026-06-14T09:54:14.571Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: J_IDvz4Hkch8VMczAAAj | Room: jeozyo7
+[2026-06-14T09:54:14.574Z] [ANSWER] Socket: J_IDvz4Hkch8VMczAAAj -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:14.579Z] [ICE-CANDIDATE] Socket: J_IDvz4Hkch8VMczAAAj -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:24.131Z] [LEAVE-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:24.133Z] [LEAVE-ROOM] Socket: J_IDvz4Hkch8VMczAAAj | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:30.184Z] Socket disconnected: J_IDvz4Hkch8VMczAAAj
+[2026-06-14T09:54:30.236Z] [CONNECT] Socket: 9KjRZVi7HiHErSH0AAAl | User: q4w57gk9mqdkualw
+[2026-06-14T09:54:30.255Z] [RESUME-FROM] Socket: 9KjRZVi7HiHErSH0AAAl | User: q4w57gk9mqdkualw | Room: jeozyo7 | Chunk: 319
+[2026-06-14T09:54:30.260Z] [LEAVE-ROOM] Socket: 9KjRZVi7HiHErSH0AAAl | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:30.264Z] [LEAVE-ROOM] Socket: 9KjRZVi7HiHErSH0AAAl | User: q4w57gk9mqdkualw | Room: jeozyo7
+[2026-06-14T09:54:30.268Z] [RESUME-FROM] Socket: 9KjRZVi7HiHErSH0AAAl | User: q4w57gk9mqdkualw | Room: jeozyo7 | Chunk: 319
+[2026-06-14T09:54:30.273Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: 9KjRZVi7HiHErSH0AAAl | Room: jeozyo7
+[2026-06-14T09:54:30.283Z] [ANSWER] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:30.287Z] [ICE-CANDIDATE] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:30.290Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: 9KjRZVi7HiHErSH0AAAl | Room: jeozyo7
+[2026-06-14T09:54:30.295Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: 9KjRZVi7HiHErSH0AAAl | Room: jeozyo7
+[2026-06-14T09:54:30.301Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: 9KjRZVi7HiHErSH0AAAl | Room: jeozyo7
+[2026-06-14T09:54:30.306Z] [ANSWER] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:30.311Z] [ICE-CANDIDATE] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:30.315Z] [ICE-CANDIDATE] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:30.326Z] [ICE-CANDIDATE] Socket: 9KjRZVi7HiHErSH0AAAl -> Peer: xn3B6udGBxYWX5NuAAAd | Room: jeozyo7
+[2026-06-14T09:54:53.523Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: jeozyo7
+[2026-06-14T09:54:53.528Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: jeozyo7
+[2026-06-14T09:55:00.182Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:55:00.184Z] [CREATE-ROOM] New room generated: ohtv68s
+[2026-06-14T09:55:00.206Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: ohtv68s
+[2026-06-14T09:55:00.210Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room ohtv68s
+[2026-06-14T09:55:00.215Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: ohtv68s
+[2026-06-14T09:55:00.222Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: ohtv68s
+[2026-06-14T09:55:00.226Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: ohtv68s
+[2026-06-14T09:55:00.230Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room ohtv68s
+[2026-06-14T09:55:04.638Z] Socket disconnected: 9KjRZVi7HiHErSH0AAAl
+[2026-06-14T09:55:04.702Z] [CONNECT] Socket: XfiVLn4dT8NbVS_IAAAn | User: q4w57gk9mqdkualw
+[2026-06-14T09:55:04.715Z] [JOIN-ROOM] Socket: XfiVLn4dT8NbVS_IAAAn | User: q4w57gk9mqdkualw | Room: ohtv68s
+[2026-06-14T09:55:04.717Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:55:04.719Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:55:04.722Z] Socket XfiVLn4dT8NbVS_IAAAn joined room: ohtv68s
+[2026-06-14T09:55:04.729Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: XfiVLn4dT8NbVS_IAAAn | Room: ohtv68s
+[2026-06-14T09:55:04.731Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: XfiVLn4dT8NbVS_IAAAn | Room: ohtv68s
+[2026-06-14T09:55:04.736Z] [LEAVE-ROOM] Socket: XfiVLn4dT8NbVS_IAAAn | User: q4w57gk9mqdkualw | Room: ohtv68s
+[2026-06-14T09:55:04.739Z] [LEAVE-ROOM] Socket: XfiVLn4dT8NbVS_IAAAn | User: q4w57gk9mqdkualw | Room: ohtv68s
+[2026-06-14T09:55:04.743Z] [JOIN-ROOM] Socket: XfiVLn4dT8NbVS_IAAAn | User: q4w57gk9mqdkualw | Room: ohtv68s
+[2026-06-14T09:55:04.745Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:55:04.749Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:55:04.753Z] Socket XfiVLn4dT8NbVS_IAAAn joined room: ohtv68s
+[2026-06-14T09:55:04.757Z] [ANSWER] Socket: XfiVLn4dT8NbVS_IAAAn -> Peer: xn3B6udGBxYWX5NuAAAd | Room: ohtv68s
+[2026-06-14T09:55:04.761Z] [ICE-CANDIDATE] Socket: XfiVLn4dT8NbVS_IAAAn -> Peer: xn3B6udGBxYWX5NuAAAd | Room: ohtv68s
+[2026-06-14T09:55:04.769Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: XfiVLn4dT8NbVS_IAAAn | Room: ohtv68s
+[2026-06-14T09:55:04.773Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: XfiVLn4dT8NbVS_IAAAn | Room: ohtv68s
+[2026-06-14T09:55:04.776Z] [ANSWER] Socket: XfiVLn4dT8NbVS_IAAAn -> Peer: xn3B6udGBxYWX5NuAAAd | Room: ohtv68s
+[2026-06-14T09:55:04.779Z] [ICE-CANDIDATE] Socket: XfiVLn4dT8NbVS_IAAAn -> Peer: xn3B6udGBxYWX5NuAAAd | Room: ohtv68s
+[2026-06-14T09:55:04.798Z] [ICE-CANDIDATE] Socket: XfiVLn4dT8NbVS_IAAAn -> Peer: xn3B6udGBxYWX5NuAAAd | Room: ohtv68s
+[2026-06-14T09:55:06.486Z] Socket disconnected: DZv9hY0zy1nRqnzZAAAh
+[2026-06-14T09:58:32.429Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: ohtv68s
+[2026-06-14T09:58:32.434Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: ohtv68s
+[2026-06-14T09:58:37.996Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:58:37.999Z] [CREATE-ROOM] New room generated: 062n3u3
+[2026-06-14T09:58:38.022Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: 062n3u3
+[2026-06-14T09:58:38.027Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 062n3u3
+[2026-06-14T09:58:38.037Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 062n3u3
+[2026-06-14T09:58:38.042Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 062n3u3
+[2026-06-14T09:58:38.047Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: 062n3u3
+[2026-06-14T09:58:38.050Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room 062n3u3
+[2026-06-14T09:58:50.649Z] Socket disconnected: XfiVLn4dT8NbVS_IAAAn
+[2026-06-14T09:58:50.713Z] [CONNECT] Socket: x_dPghIp7nBF9rX2AAAp | User: q4w57gk9mqdkualw
+[2026-06-14T09:58:50.726Z] [JOIN-ROOM] Socket: x_dPghIp7nBF9rX2AAAp | User: q4w57gk9mqdkualw | Room: 062n3u3
+[2026-06-14T09:58:50.728Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:58:50.731Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:58:50.736Z] Socket x_dPghIp7nBF9rX2AAAp joined room: 062n3u3
+[2026-06-14T09:58:50.741Z] [LEAVE-ROOM] Socket: x_dPghIp7nBF9rX2AAAp | User: q4w57gk9mqdkualw | Room: 062n3u3
+[2026-06-14T09:58:50.745Z] [LEAVE-ROOM] Socket: x_dPghIp7nBF9rX2AAAp | User: q4w57gk9mqdkualw | Room: 062n3u3
+[2026-06-14T09:58:50.749Z] [JOIN-ROOM] Socket: x_dPghIp7nBF9rX2AAAp | User: q4w57gk9mqdkualw | Room: 062n3u3
+[2026-06-14T09:58:50.752Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:58:50.755Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:58:50.758Z] Socket x_dPghIp7nBF9rX2AAAp joined room: 062n3u3
+[2026-06-14T09:58:50.762Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: x_dPghIp7nBF9rX2AAAp | Room: 062n3u3
+[2026-06-14T09:58:50.768Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: x_dPghIp7nBF9rX2AAAp | Room: 062n3u3
+[2026-06-14T09:58:50.773Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: x_dPghIp7nBF9rX2AAAp | Room: 062n3u3
+[2026-06-14T09:58:50.776Z] [ANSWER] Socket: x_dPghIp7nBF9rX2AAAp -> Peer: xn3B6udGBxYWX5NuAAAd | Room: 062n3u3
+[2026-06-14T09:58:50.781Z] [ICE-CANDIDATE] Socket: x_dPghIp7nBF9rX2AAAp -> Peer: xn3B6udGBxYWX5NuAAAd | Room: 062n3u3
+[2026-06-14T09:58:50.787Z] [ANSWER] Socket: x_dPghIp7nBF9rX2AAAp -> Peer: xn3B6udGBxYWX5NuAAAd | Room: 062n3u3
+[2026-06-14T09:58:50.793Z] [ICE-CANDIDATE] Socket: x_dPghIp7nBF9rX2AAAp -> Peer: xn3B6udGBxYWX5NuAAAd | Room: 062n3u3
+[2026-06-14T09:59:04.325Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 062n3u3
+[2026-06-14T09:59:04.333Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: 062n3u3
+[2026-06-14T09:59:16.081Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T09:59:16.085Z] [CREATE-ROOM] New room generated: aas4rf3
+[2026-06-14T09:59:16.107Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: aas4rf3
+[2026-06-14T09:59:16.111Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room aas4rf3
+[2026-06-14T09:59:16.116Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: aas4rf3
+[2026-06-14T09:59:16.119Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: aas4rf3
+[2026-06-14T09:59:16.124Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: aas4rf3
+[2026-06-14T09:59:16.128Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room aas4rf3
+[2026-06-14T09:59:21.231Z] Socket disconnected: x_dPghIp7nBF9rX2AAAp
+[2026-06-14T09:59:21.287Z] [CONNECT] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw
+[2026-06-14T09:59:21.298Z] [JOIN-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:21.301Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:59:21.304Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:59:21.308Z] Socket BKsiCM9_nFvMaZa6AAAr joined room: aas4rf3
+[2026-06-14T09:59:21.311Z] [LEAVE-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:21.314Z] [LEAVE-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:21.317Z] [JOIN-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:21.319Z] [JOIN-ROOM] Success: true
+[2026-06-14T09:59:21.322Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T09:59:21.325Z] Socket BKsiCM9_nFvMaZa6AAAr joined room: aas4rf3
+[2026-06-14T09:59:21.330Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: BKsiCM9_nFvMaZa6AAAr | Room: aas4rf3
+[2026-06-14T09:59:21.338Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: BKsiCM9_nFvMaZa6AAAr | Room: aas4rf3
+[2026-06-14T09:59:21.342Z] [ANSWER] Socket: BKsiCM9_nFvMaZa6AAAr -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:21.345Z] [ICE-CANDIDATE] Socket: BKsiCM9_nFvMaZa6AAAr -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:21.348Z] [ANSWER] Socket: BKsiCM9_nFvMaZa6AAAr -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:21.350Z] [ICE-CANDIDATE] Socket: BKsiCM9_nFvMaZa6AAAr -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:21.353Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: BKsiCM9_nFvMaZa6AAAr | Room: aas4rf3
+[2026-06-14T09:59:30.347Z] [LEAVE-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:30.351Z] [LEAVE-ROOM] Socket: BKsiCM9_nFvMaZa6AAAr | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:34.567Z] Socket disconnected: BKsiCM9_nFvMaZa6AAAr
+[2026-06-14T09:59:34.605Z] [CONNECT] Socket: vtGifS86ksT65IofAAAt | User: q4w57gk9mqdkualw
+[2026-06-14T09:59:34.628Z] [RESUME-FROM] Socket: vtGifS86ksT65IofAAAt | User: q4w57gk9mqdkualw | Room: aas4rf3 | Chunk: 575
+[2026-06-14T09:59:34.634Z] [LEAVE-ROOM] Socket: vtGifS86ksT65IofAAAt | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:34.637Z] [LEAVE-ROOM] Socket: vtGifS86ksT65IofAAAt | User: q4w57gk9mqdkualw | Room: aas4rf3
+[2026-06-14T09:59:34.641Z] [RESUME-FROM] Socket: vtGifS86ksT65IofAAAt | User: q4w57gk9mqdkualw | Room: aas4rf3 | Chunk: 575
+[2026-06-14T09:59:34.644Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: vtGifS86ksT65IofAAAt | Room: aas4rf3
+[2026-06-14T09:59:34.653Z] [ANSWER] Socket: vtGifS86ksT65IofAAAt -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:34.657Z] [ICE-CANDIDATE] Socket: vtGifS86ksT65IofAAAt -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:34.661Z] [ICE-CANDIDATE] Socket: vtGifS86ksT65IofAAAt -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:34.665Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: vtGifS86ksT65IofAAAt | Room: aas4rf3
+[2026-06-14T09:59:34.669Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: vtGifS86ksT65IofAAAt | Room: aas4rf3
+[2026-06-14T09:59:34.673Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: vtGifS86ksT65IofAAAt | Room: aas4rf3
+[2026-06-14T09:59:34.679Z] [ANSWER] Socket: vtGifS86ksT65IofAAAt -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:34.685Z] [ICE-CANDIDATE] Socket: vtGifS86ksT65IofAAAt -> Peer: xn3B6udGBxYWX5NuAAAd | Room: aas4rf3
+[2026-06-14T09:59:55.358Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: aas4rf3
+[2026-06-14T09:59:55.367Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: aas4rf3
+[2026-06-14T10:00:02.228Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: undefined
+[2026-06-14T10:00:02.230Z] [CREATE-ROOM] New room generated: n08v96s
+[2026-06-14T10:00:02.250Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: n08v96s
+[2026-06-14T10:00:02.254Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room n08v96s
+[2026-06-14T10:00:02.258Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: n08v96s
+[2026-06-14T10:00:02.262Z] [LEAVE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Room: n08v96s
+[2026-06-14T10:00:02.266Z] [CREATE-ROOM] Socket: xn3B6udGBxYWX5NuAAAd | User: 4e009l00mqdk57tx | Requested Room: n08v96s
+[2026-06-14T10:00:02.270Z] [CLAIM-ROOM] Success! Sender 4e009l00mqdk57tx reclaimed room n08v96s
+[2026-06-14T10:00:12.622Z] Socket disconnected: vtGifS86ksT65IofAAAt
+[2026-06-14T10:00:12.684Z] [CONNECT] Socket: FhNlmXWdFxdWQnheAAAv | User: q4w57gk9mqdkualw
+[2026-06-14T10:00:12.697Z] [JOIN-ROOM] Socket: FhNlmXWdFxdWQnheAAAv | User: q4w57gk9mqdkualw | Room: n08v96s
+[2026-06-14T10:00:12.700Z] [JOIN-ROOM] Success: true
+[2026-06-14T10:00:12.703Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T10:00:12.706Z] Socket FhNlmXWdFxdWQnheAAAv joined room: n08v96s
+[2026-06-14T10:00:12.712Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: FhNlmXWdFxdWQnheAAAv | Room: n08v96s
+[2026-06-14T10:00:12.716Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: FhNlmXWdFxdWQnheAAAv | Room: n08v96s
+[2026-06-14T10:00:12.720Z] [LEAVE-ROOM] Socket: FhNlmXWdFxdWQnheAAAv | User: q4w57gk9mqdkualw | Room: n08v96s
+[2026-06-14T10:00:12.725Z] [LEAVE-ROOM] Socket: FhNlmXWdFxdWQnheAAAv | User: q4w57gk9mqdkualw | Room: n08v96s
+[2026-06-14T10:00:12.728Z] [JOIN-ROOM] Socket: FhNlmXWdFxdWQnheAAAv | User: q4w57gk9mqdkualw | Room: n08v96s
+[2026-06-14T10:00:12.732Z] [JOIN-ROOM] Success: true
+[2026-06-14T10:00:12.734Z] [JOIN-ROOM] Emitting peer-joined to Sender Socket: xn3B6udGBxYWX5NuAAAd
+[2026-06-14T10:00:12.738Z] Socket FhNlmXWdFxdWQnheAAAv joined room: n08v96s
+[2026-06-14T10:00:12.740Z] [ANSWER] Socket: FhNlmXWdFxdWQnheAAAv -> Peer: xn3B6udGBxYWX5NuAAAd | Room: n08v96s
+[2026-06-14T10:00:12.743Z] [ICE-CANDIDATE] Socket: FhNlmXWdFxdWQnheAAAv -> Peer: xn3B6udGBxYWX5NuAAAd | Room: n08v96s
+[2026-06-14T10:00:12.751Z] [OFFER] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: FhNlmXWdFxdWQnheAAAv | Room: n08v96s
+[2026-06-14T10:00:12.754Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: FhNlmXWdFxdWQnheAAAv | Room: n08v96s
+[2026-06-14T10:00:12.757Z] [ANSWER] Socket: FhNlmXWdFxdWQnheAAAv -> Peer: xn3B6udGBxYWX5NuAAAd | Room: n08v96s
+[2026-06-14T10:00:12.760Z] [ICE-CANDIDATE] Socket: FhNlmXWdFxdWQnheAAAv -> Peer: xn3B6udGBxYWX5NuAAAd | Room: n08v96s
+[2026-06-14T10:00:12.766Z] [ICE-CANDIDATE] Socket: FhNlmXWdFxdWQnheAAAv -> Peer: xn3B6udGBxYWX5NuAAAd | Room: n08v96s
+[2026-06-14T10:00:12.770Z] [ICE-CANDIDATE] Socket: xn3B6udGBxYWX5NuAAAd -> Peer: FhNlmXWdFxdWQnheAAAv | Room: n08v96s
+[2026-06-14T10:11:54.771Z] Socket disconnected: FhNlmXWdFxdWQnheAAAv
+[2026-06-14T10:11:56.422Z] Socket disconnected: xn3B6udGBxYWX5NuAAAd

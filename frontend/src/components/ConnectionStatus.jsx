@@ -38,7 +38,7 @@ export function ConnectionStatus({ state }) {
   return (
     <div className="flex items-center space-x-2 bg-[var(--social-bg)] px-3 py-1.5 rounded-full border border-[var(--border)] shadow-sm">
       <span className={`w-2.5 h-2.5 rounded-full ${colorClass} animate-pulse`}></span>
-      <span className="text-sm font-medium text-[var(--text-h)]">{label}</span>
+      <span className="text-sm font-medium text-black">{label}</span>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { ConnectionStatus } from './ConnectionStatus';
 import { ProgressBar } from './ProgressBar';
 import { DisconnectAlert } from './DisconnectAlert';
 import { Copy, CheckCircle2, Home } from 'lucide-react';
+import { generateKey, exportKeyToBase64 } from '../utils/crypto';
 
 export function ShareRoom() {
   const { roomId } = useParams();
@@ -16,11 +17,36 @@ export function ShareRoom() {
 
   const [copied, setCopied] = useState(false);
   const [isReadyToStart, setIsReadyToStart] = useState(false);
+  const [cryptoKey, setCryptoKey] = useState(null);
+  const [base64Key, setBase64Key] = useState('');
+  
   const socket = useSocket();
-  const { sendFile, transferProgress, onMessage } = useFileTransfer();
+  const { sendFile, transferProgress, receiverProgress, fileName, onMessage, resumeFrom, pauseTransfer } = useFileTransfer(cryptoKey, socket, roomId);
   const { connectionState, dataChannel } = useWebRTC(socket, roomId, onMessage);
 
-  const inviteUrl = `${window.location.origin}/room/${roomId}`;
+  useEffect(() => {
+    if (socket && roomId) {
+      // Re-create the room to handle StrictMode double-mount deletions
+      socket.emit('create-room', { roomId });
+
+      return () => {
+        socket.emit('leave-room', { roomId });
+      };
+    }
+  }, [socket, roomId]);
+
+  useEffect(() => {
+    // Generate the encryption key once on mount
+    async function initKey() {
+      const key = await generateKey();
+      const b64 = await exportKeyToBase64(key);
+      setCryptoKey(key);
+      setBase64Key(b64);
+    }
+    initKey();
+  }, []);
+
+  const inviteUrl = base64Key ? `${window.location.origin}/room/${roomId}#key=${base64Key}` : '';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(inviteUrl);
@@ -33,8 +59,14 @@ export function ShareRoom() {
   };
 
   useEffect(() => {
+    if (connectionState === 'disconnected' && transferProgress.status === 'sending') {
+      pauseTransfer();
+    }
+  }, [connectionState, transferProgress.status, pauseTransfer]);
+
+  useEffect(() => {
     // Only allow start when BOTH WebRTC and the DataChannel are fully stabilized
-    if (connectionState === 'connected' && dataChannel && file && transferProgress.status === 'idle') {
+    if (connectionState === 'connected' && dataChannel && file && (transferProgress.status === 'idle' || transferProgress.status === 'paused')) {
       if (dataChannel.readyState === 'open') {
         setIsReadyToStart(true);
       } else {
@@ -46,11 +78,18 @@ export function ShareRoom() {
   }, [connectionState, dataChannel, file, transferProgress.status]);
 
   const handleStartTransfer = () => {
-    if (dataChannel && dataChannel.readyState === 'open') {
-      sendFile(file, dataChannel);
+    if (dataChannel && dataChannel.readyState === 'open' && cryptoKey) {
+      sendFile(file, dataChannel, cryptoKey);
       setIsReadyToStart(false);
     }
   };
+
+  // Auto-resume
+  useEffect(() => {
+    if (isReadyToStart && transferProgress.status === 'paused' && resumeFrom > 0) {
+      handleStartTransfer();
+    }
+  }, [isReadyToStart, transferProgress.status, resumeFrom]);
 
   if (!file) {
     return <div className="p-8 text-center text-red-500">Error: No file selected.</div>;
@@ -62,7 +101,7 @@ export function ShareRoom() {
         <div className="flex items-center gap-3">
           <button 
             onClick={handleGoHome} 
-            className="p-2 hover:bg-gray-100 rounded-full transition-colors text-gray-500"
+            className="p-2 hover:bg-gray-100 rounded-full transition-colors text-black"
             title="Leave Room"
           >
             <Home className="w-5 h-5" />
@@ -73,7 +112,7 @@ export function ShareRoom() {
       </div>
 
       <div className="bg-gray-50 rounded-xl p-4 border border-gray-200 mb-6">
-        <p className="text-sm text-gray-500 font-medium mb-2">Share this link with the receiver:</p>
+        <p className="text-sm text-black font-medium mb-2">Share this link with the receiver:</p>
         <div className="flex items-center space-x-2">
           <input
             type="text"
@@ -83,7 +122,7 @@ export function ShareRoom() {
           />
           <button
             onClick={handleCopy}
-            className="p-2 bg-[var(--accent)] text-white rounded-lg hover:opacity-90 transition-opacity flex-shrink-0"
+            className="p-2 bg-gray-200 text-black rounded-lg hover:opacity-90 transition-opacity flex-shrink-0"
             title="Copy Link"
           >
             {copied ? <CheckCircle2 className="w-5 h-5" /> : <Copy className="w-5 h-5" />}
@@ -93,13 +132,13 @@ export function ShareRoom() {
 
       <div className="mb-6 p-4 border border-gray-100 rounded-xl">
         <p className="font-medium text-[var(--text-h)] truncate">{file.name}</p>
-        <p className="text-sm text-gray-500">{(file.size / 1024 / 1024).toFixed(2)} MB</p>
+        <p className="text-sm text-black">{(file.size / 1024 / 1024).toFixed(2)} MB</p>
       </div>
 
       {isReadyToStart && transferProgress.status === 'idle' && (
         <button 
           onClick={handleStartTransfer}
-          className="w-full mb-6 bg-[var(--accent)] text-white font-medium py-3 rounded-xl hover:opacity-90 transition-all shadow-sm"
+          className="w-full mb-6 bg-blue-600 text-white font-medium py-3 rounded-xl hover:opacity-90 transition-all shadow-sm"
         >
           Start Transfer
         </button>

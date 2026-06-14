@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { useSocket } from '../hooks/useSocket';
 import { UploadCloud, File as FileIcon } from 'lucide-react';
 
-const MAX_SIZE = 50 * 1024 * 1024; // 50MB
+const supportsOPFS = ('storage' in navigator && 'getDirectory' in navigator.storage);
+const MAX_SIZE = supportsOPFS ? 500 * 1024 * 1024 : 50 * 1024 * 1024; // 500MB if OPFS, else 50MB
 
 export function DropZone() {
   const [isDragOver, setIsDragOver] = useState(false);
@@ -20,7 +21,7 @@ export function DropZone() {
     if (!file) return;
     
     if (file.size > MAX_SIZE) {
-      setError('File size exceeds the 50MB limit.');
+      setError(`File size exceeds the ${supportsOPFS ? '500MB' : '50MB'} limit.`);
       return;
     }
 
@@ -65,13 +66,13 @@ export function DropZone() {
         }}
         onClick={() => fileInputRef.current?.click()}
       >
-        <UploadCloud className="w-12 h-12 text-gray-400 mb-4" />
+        <UploadCloud className="w-12 h-12 text-black mb-4" />
         <p className="text-center font-medium text-[var(--text-h)]">
           Drag & drop a file here
         </p>
-        <p className="text-sm text-gray-500 mt-1">or click to browse</p>
-        <p className="text-xs text-gray-400 mt-4 max-w-xs text-center">
-          Files are sent directly peer-to-peer. Limit 50MB.
+        <p className="text-sm text-black mt-1">or click to browse</p>
+        <p className="text-xs text-black mt-4 max-w-xs text-center">
+          Files are sent directly peer-to-peer. Limit {supportsOPFS ? '500MB' : '50MB'}.
         </p>
         
         <input 
@@ -97,13 +98,20 @@ export function DropZone() {
           <FileIcon className="w-8 h-8 text-[var(--accent)]" />
           <div className="flex-1 overflow-hidden">
             <p className="text-sm font-medium text-[var(--text-h)] truncate">{selectedFile.name}</p>
-            <p className="text-xs text-gray-500">{(selectedFile.size / 1024 / 1024).toFixed(2)} MB</p>
+            <p className="text-xs text-black">{(selectedFile.size / 1024 / 1024).toFixed(2)} MB</p>
           </div>
           {isCreatingRoom && (
             <span className="text-xs font-semibold text-[var(--accent)] animate-pulse">Creating...</span>
           )}
         </div>
       )}
+
+      <button
+        disabled={!selectedFile || isCreatingRoom || !!error}
+        className="w-full mt-6 bg-blue-600 text-white font-medium py-3 rounded-xl hover:opacity-90 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm"
+      >
+        {isCreatingRoom ? 'Creating Room...' : 'Share File'}
+      </button>
     </div>
   );
 }

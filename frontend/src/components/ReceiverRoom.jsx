@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useSocket } from '../hooks/useSocket';
 import { useWebRTC } from '../hooks/useWebRTC';
 import { useFileTransfer } from '../hooks/useFileTransfer';
@@ -7,17 +7,39 @@ import { ConnectionStatus } from './ConnectionStatus';
 import { ProgressBar } from './ProgressBar';
 import { DisconnectAlert } from './DisconnectAlert';
 import { DownloadCloud, AlertCircle, Home } from 'lucide-react';
+import { importKeyFromBase64 } from '../utils/crypto';
 
 export function ReceiverRoom() {
   const { roomId } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const socket = useSocket();
-  const { receiverProgress, fileName, onMessage } = useFileTransfer();
-  const { connectionState } = useWebRTC(socket, roomId, onMessage);
   
+  const [cryptoKey, setCryptoKey] = useState(null);
   const [error, setError] = useState('');
 
+  const { receiverProgress, fileName, onMessage } = useFileTransfer(cryptoKey, socket, roomId);
+  const { connectionState } = useWebRTC(socket, roomId, onMessage);
+  
   const hasJoined = useRef(false);
+
+  useEffect(() => {
+    async function initKey() {
+      try {
+        const hash = location.hash;
+        if (hash.startsWith('#key=')) {
+          const base64 = hash.slice(5);
+          const key = await importKeyFromBase64(base64);
+          setCryptoKey(key);
+        } else {
+          setError('Missing encryption key in URL.');
+        }
+      } catch (err) {
+        setError('Invalid encryption key.');
+      }
+    }
+    initKey();
+  }, [location.hash]);
 
   const handleGoHome = () => {
     navigate('/');
@@ -27,36 +49,33 @@ export function ReceiverRoom() {
     if (!socket || !roomId || hasJoined.current) return;
     
     hasJoined.current = true;
-    socket.emit('join-room', { roomId });
+    const lastIndex = localStorage.getItem(`resume-${roomId}`);
+    if (lastIndex) {
+      socket.emit('resume-from', { roomId, fromChunk: parseInt(lastIndex, 10) });
+    } else {
+      socket.emit('join-room', { roomId });
+    }
     
     socket.on('room-error', ({ message }) => {
       setError(message);
     });
 
     return () => {
+      hasJoined.current = false;
       socket.off('room-error');
+      socket.emit('leave-room', { roomId });
     };
   }, [socket, roomId]);
 
-  // Trigger file download when complete
-  useEffect(() => {
-    if (receiverProgress.status === 'done' && receiverProgress.url) {
-      const a = document.createElement('a');
-      a.href = receiverProgress.url;
-      a.download = fileName || 'download';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    }
-  }, [receiverProgress.status, receiverProgress.url, fileName]);
+
 
   if (error) {
     return (
       <div className="w-full max-w-md mx-auto p-6 bg-white border border-[var(--border)] rounded-2xl shadow-[var(--shadow)] text-center">
         <AlertCircle className="w-12 h-12 text-red-500 mx-auto mb-4" />
         <h2 className="text-xl font-bold text-[var(--text-h)] mb-2">Room Error</h2>
-        <p className="text-gray-600">{error}</p>
-        <button onClick={handleGoHome} className="mt-6 px-6 py-2 bg-[var(--accent)] text-white rounded-lg hover:opacity-90">
+        <p className="text-black">{error}</p>
+        <button onClick={handleGoHome} className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:opacity-90">
           Go Home
         </button>
       </div>
@@ -69,7 +88,7 @@ export function ReceiverRoom() {
         <div className="flex items-center gap-3">
           <button 
             onClick={handleGoHome} 
-            className="p-2 hover:bg-gray-100 rounded-full transition-colors text-gray-500"
+            className="p-2 hover:bg-gray-100 rounded-full transition-colors text-black"
             title="Leave Room"
           >
             <Home className="w-5 h-5" />
@@ -80,14 +99,14 @@ export function ReceiverRoom() {
       </div>
 
       {connectionState === 'waiting' && (
-        <div className="py-12 flex flex-col items-center justify-center text-gray-400">
+        <div className="py-12 flex flex-col items-center justify-center text-black">
           <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-[var(--accent)] mb-4"></div>
           <p>Connecting to sender...</p>
         </div>
       )}
 
       {connectionState === 'connected' && receiverProgress.status === 'waiting' && (
-        <div className="py-12 flex flex-col items-center justify-center text-gray-400">
+        <div className="py-12 flex flex-col items-center justify-center text-black">
           <DownloadCloud className="w-12 h-12 mb-4 opacity-50" />
           <p>Connected. Waiting for file...</p>
         </div>
