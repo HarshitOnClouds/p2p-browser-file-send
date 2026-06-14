@@ -4,24 +4,18 @@
 
 **A blazing-fast, secure, and purely peer-to-peer file sharing application.**
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
-[![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)](https://webrtc.org/)
-[![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
 </div>
 
 ---
 
-Send files of **any size** directly from one browser to another. No limits, no intermediate servers, no data retention. Your files stay perfectly secure via **AES-GCM 256-bit** End-to-End Encryption, and the transfer utilizes your browser's native **Origin Private File System (OPFS)** for zero-crash streaming.
+Send files of **upto 1GB** directly from one browser to another. No intermediate servers, no data retention. Your files stay perfectly secure via **AES-GCM 256-bit** End-to-End Encryption, and the transfer utilizes your browser's native **Origin Private File System (OPFS)** for zero-crash streaming.
 
 ## ✨ Key Features
 
 - ⚡ **Direct P2P Transfer**: Powered by WebRTC DataChannels for the fastest possible local and remote data transfer routing.
 - 🔒 **End-to-End Encryption**: Every chunk of data is encrypted using native Web Crypto APIs (AES-GCM) on the sender's device and decrypted dynamically on the receiver's device.
 - 🔄 **Smart Auto-Resume**: Dropped connection? Browser crashed? No problem. Simply rejoin the room and the transfer picks up exactly where it left off, down to the exact byte.
-- 📁 **Unlimited File Sizes**: We chunk data into perfectly optimized 1MB slices and stream them directly to the receiver's disk (OPFS), meaning you can transfer 10GB+ files without ever running out of RAM.
+- 📁 **Unlimited File Sizes**: We chunk data into perfectly optimized 1MB slices and stream them directly to the receiver's disk (OPFS), meaning you can transfer 10GB+ files without ever running out of RAM (intentional 1GB cap to prevent browser from running out of memory)
 - 🛡️ **Zero Server Storage**: The backend exists *strictly* as a signaling server to introduce the two browsers. Not a single byte of your file data ever touches a server.
 - 🎨 **Beautiful UI**: Modern, responsive, and minimalist monochrome UI with smooth micro-animations.
 
