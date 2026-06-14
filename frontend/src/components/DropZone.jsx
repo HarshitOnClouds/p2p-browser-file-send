@@ -4,7 +4,7 @@ import { useSocket } from '../hooks/useSocket';
 import { UploadCloud, File as FileIcon } from 'lucide-react';
 
 const supportsOPFS = ('storage' in navigator && 'getDirectory' in navigator.storage);
-const MAX_SIZE = supportsOPFS ? 500 * 1024 * 1024 : 50 * 1024 * 1024; // 500MB if OPFS, else 50MB
+const MAX_SIZE = supportsOPFS ? 1024 * 1024 * 1024 : 50 * 1024 * 1024;
 
 export function DropZone() {
   const [isDragOver, setIsDragOver] = useState(false);
@@ -21,7 +21,7 @@ export function DropZone() {
     if (!file) return;
     
     if (file.size > MAX_SIZE) {
-      setError(`File size exceeds the ${supportsOPFS ? '500MB' : '50MB'} limit.`);
+      setError(`File size exceeds the ${supportsOPFS ? '1GB' : '50MB'} limit.`);
       return;
     }
 
@@ -37,10 +37,8 @@ export function DropZone() {
     
     setIsCreatingRoom(true);
     
-    // Listen for room creation
     socket.once('room-created', ({ roomId }) => {
       setIsCreatingRoom(false);
-      // Navigate to the room and pass the file via location state
       navigate(`/room/${roomId}`, { state: { file } });
     });
 
@@ -72,7 +70,7 @@ export function DropZone() {
         </p>
         <p className="text-sm text-black mt-1">or click to browse</p>
         <p className="text-xs text-black mt-4 max-w-xs text-center">
-          Files are sent directly peer-to-peer. Limit {supportsOPFS ? '500MB' : '50MB'}.
+          Files are sent directly peer-to-peer. Limit {supportsOPFS ? '1GB' : '50MB'}.
         </p>
         
         <input 

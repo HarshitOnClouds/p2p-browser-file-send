@@ -26,7 +26,6 @@ export function ShareRoom() {
 
   useEffect(() => {
     if (socket && roomId) {
-      // Re-create the room to handle StrictMode double-mount deletions
       socket.emit('create-room', { roomId });
 
       return () => {
@@ -36,7 +35,6 @@ export function ShareRoom() {
   }, [socket, roomId]);
 
   useEffect(() => {
-    // Generate the encryption key once on mount
     async function initKey() {
       const key = await generateKey();
       const b64 = await exportKeyToBase64(key);
@@ -65,7 +63,6 @@ export function ShareRoom() {
   }, [connectionState, transferProgress.status, pauseTransfer]);
 
   useEffect(() => {
-    // Only allow start when BOTH WebRTC and the DataChannel are fully stabilized
     if (connectionState === 'connected' && dataChannel && file && (transferProgress.status === 'idle' || transferProgress.status === 'paused')) {
       if (dataChannel.readyState === 'open') {
         setIsReadyToStart(true);
@@ -84,7 +81,6 @@ export function ShareRoom() {
     }
   };
 
-  // Auto-resume
   useEffect(() => {
     if (isReadyToStart && transferProgress.status === 'paused' && resumeFrom > 0) {
       handleStartTransfer();

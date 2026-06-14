@@ -16,13 +16,11 @@ export function useWebRTC(socket, roomId, onMessage) {
   const sessionIdRef = useRef(null);
   const remoteSessionIdRef = useRef(null);
   
-  // Keep the latest onMessage callback without triggering re-renders
   const onMessageRef = useRef(onMessage);
   useEffect(() => {
     onMessageRef.current = onMessage;
   }, [onMessage]);
 
-  // Initialize RTCPeerConnection
   useEffect(() => {
     if (!socket || !roomId) return;
 
@@ -35,7 +33,6 @@ export function useWebRTC(socket, roomId, onMessage) {
       pcRef.current = pc;
       sessionIdRef.current = Math.random().toString(36).substring(2, 10);
 
-      // ICE Candidate generation
       pc.onicecandidate = (event) => {
         if (event.candidate) {
           socket.emit('ice-candidate', { 
@@ -47,12 +44,10 @@ export function useWebRTC(socket, roomId, onMessage) {
         }
       };
 
-      // Connection state tracking
       pc.onconnectionstatechange = () => {
         setConnectionState(pc.connectionState);
       };
 
-      // Receiver: Capture incoming data channel
       pc.ondatachannel = (event) => {
         const receiveChannel = event.channel;
         receiveChannel.binaryType = 'arraybuffer';
@@ -67,7 +62,6 @@ export function useWebRTC(socket, roomId, onMessage) {
 
     initializePC();
 
-    // Socket Event Handlers
     const handlePeerJoined = async () => {
       if (pcRef.current) {
         // If the receiver is joining fresh (e.g. remounting or reloading), 
@@ -91,7 +85,6 @@ export function useWebRTC(socket, roomId, onMessage) {
         sdp: answer,
         targetSessionId: senderSessionId
       });
-      // Process queued candidates
       iceCandidateQueue.forEach(c => pc.addIceCandidate(new RTCIceCandidate(c)));
       iceCandidateQueue.length = 0;
     };
@@ -106,13 +99,11 @@ export function useWebRTC(socket, roomId, onMessage) {
         console.error("Failed to set remote description:", err);
         return;
       }
-      // Process queued candidates
       iceCandidateQueue.forEach(c => pc.addIceCandidate(new RTCIceCandidate(c)));
       iceCandidateQueue.length = 0;
     };
 
     const handleIceCandidate = async ({ candidate, targetSessionId, senderSessionId }) => {
-      // If the candidate specifies a target session and it doesn't match ours, ignore it
       if (targetSessionId && targetSessionId !== sessionIdRef.current) return;
       
       const pc = pcRef.current;
@@ -134,7 +125,6 @@ export function useWebRTC(socket, roomId, onMessage) {
       setConnectionState('disconnected');
     };
 
-    // Register socket events
     socket.on('peer-joined', handlePeerJoined);
     socket.on('offer', handleOffer);
     socket.on('answer', handleAnswer);
@@ -142,7 +132,6 @@ export function useWebRTC(socket, roomId, onMessage) {
     socket.on('peer-disconnected', handlePeerDisconnected);
 
     return () => {
-      // Cleanup on unmount
       socket.off('peer-joined', handlePeerJoined);
       socket.off('offer', handleOffer);
       socket.off('answer', handleAnswer);
@@ -153,15 +142,12 @@ export function useWebRTC(socket, roomId, onMessage) {
     };
   }, [socket, roomId]);
 
-  // Sender function: Create offer and data channel
   const createOffer = async () => {
     const pc = pcRef.current;
     if (!pc) return;
 
-    // Always create with { ordered: true } to guarantee chunk arrival sequence
     const dc = pc.createDataChannel('fileTransfer', { ordered: true });
     
-    // We attach onmessage for any return messages (if needed)
     dc.onmessage = (e) => {
       if (onMessageRef.current) onMessageRef.current(e);
     };
@@ -169,7 +155,6 @@ export function useWebRTC(socket, roomId, onMessage) {
 
     const offer = await pc.createOffer();
     
-    // If the connection was reset while we were creating the offer, abort!
     if (pcRef.current !== pc) return;
 
     await pc.setLocalDescription(offer);

@@ -33,8 +33,7 @@ io.on('connection', (socket) => {
   const userId = socket.handshake.auth?.userId;
   logToFile(`[CONNECT] Socket: ${socket.id} | User: ${userId}`);
 
-  // CLIENT -> SERVER: "create-room"
-  // Note: This does not handle file data.
+
   socket.on('create-room', (data) => {
     let roomId = data?.roomId;
     logToFile(`[CREATE-ROOM] Socket: ${socket.id} | User: ${userId} | Requested Room: ${roomId}`);
@@ -58,8 +57,7 @@ io.on('connection', (socket) => {
     socket.emit('room-created', { roomId });
   });
 
-  // CLIENT -> SERVER: "join-room"
-  // Note: This does not handle file data.
+
   socket.on('join-room', ({ roomId }) => {
     logToFile(`[JOIN-ROOM] Socket: ${socket.id} | User: ${userId} | Room: ${roomId}`);
     const success = roomManager.joinRoom(roomId, socket.id, userId);
@@ -109,8 +107,7 @@ io.on('connection', (socket) => {
     });
   });
 
-  // CLIENT -> SERVER: "offer"
-  // Note: This relays the WebRTC SDP offer. It does not handle file data.
+
   socket.on('offer', (payload) => {
     const { roomId, sdp } = payload;
     const otherPeer = roomManager.getOtherPeer(roomId, socket.id);
@@ -120,8 +117,7 @@ io.on('connection', (socket) => {
     }
   });
 
-  // CLIENT -> SERVER: "answer"
-  // Note: This relays the WebRTC SDP answer. It does not handle file data.
+
   socket.on('answer', (payload) => {
     const { roomId, sdp } = payload;
     const otherPeer = roomManager.getOtherPeer(roomId, socket.id);
@@ -131,8 +127,7 @@ io.on('connection', (socket) => {
     }
   });
 
-  // CLIENT -> SERVER: "ice-candidate"
-  // Note: This relays WebRTC ICE candidates. It does not handle file data.
+
   socket.on('ice-candidate', (payload) => {
     const { roomId, candidate } = payload;
     const otherPeer = roomManager.getOtherPeer(roomId, socket.id);
@@ -142,8 +137,7 @@ io.on('connection', (socket) => {
     }
   });
 
-  // CLIENT -> SERVER: "disconnect"
-  // Note: Cleans up the room. It does not handle file data.
+
   socket.on('disconnect', () => {
     logToFile(`Socket disconnected: ${socket.id}`);
     const disconnectInfo = roomManager.removeSocket(socket.id);

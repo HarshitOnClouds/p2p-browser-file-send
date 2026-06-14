@@ -31,7 +31,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
     return () => socket.off('resume-transfer', handleResume);
   }, [socket]);
 
-  // Receiver state refs
   const receivedChunksRef = useRef([]);
   const receivedChunksSetRef = useRef(new Set());
   const expectedMetaRef = useRef(null);
@@ -50,12 +49,10 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
     setTransferProgress({ percent: 0, speedMBps: 0, status: 'hashing' });
     
     const arrayBuffer = await file.arrayBuffer();
-    // SHA-256 on plaintext
     const fullHash = await sha256(arrayBuffer);
     
     const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
     
-    // Send meta info
     dataChannel.send(JSON.stringify({
       type: 'meta',
       name: file.name,
@@ -81,12 +78,10 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
       let chunk = arrayBuffer.slice(offset, offset + CHUNK_SIZE);
       const originalLength = chunk.byteLength;
       
-      // Encrypt if key is provided
       if (senderKey) {
         chunk = await encryptChunk(senderKey, chunk);
       }
       
-      // Prepend 4-byte chunk index for auto-resume
       const payload = new ArrayBuffer(4 + chunk.byteLength);
       const view = new DataView(payload);
       view.setUint32(0, chunkIndex, true); // little-endian
@@ -140,7 +135,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
         startTimeRef.current = performance.now();
         setReceiverProgress({ percent: 0, speedMBps: 0, status: 'receiving' });
 
-        // Try to initialize OPFS
         if ('storage' in navigator && 'getDirectory' in navigator.storage) {
           try {
             const root = await navigator.storage.getDirectory();
@@ -179,7 +173,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
           const file = await opfsHandleRef.current.getFile();
           finalBuffer = await file.arrayBuffer();
         } else {
-          // Fallback RAM Reassembly using absolute positions
           const fullBuffer = new Uint8Array(meta.size);
           for (let i = 0; i < receivedChunksRef.current.length; i++) {
             const chunk = receivedChunksRef.current[i];
@@ -190,7 +183,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
           finalBuffer = fullBuffer.buffer;
         }
 
-        // Verify hash on plaintext
         const computedHash = await sha256(finalBuffer);
         
         if (computedHash === meta.sha256) {
@@ -200,7 +192,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
           if (opfsWritableRef.current) {
             const file = await opfsHandleRef.current.getFile();
             url = URL.createObjectURL(file);
-            // Clean up OPFS file after download trigger is initiated
             setTimeout(async () => {
               try {
                 const root = await navigator.storage.getDirectory();
@@ -229,7 +220,6 @@ export function useFileTransfer(cryptoKey = null, socket = null, roomId = null) 
       const chunkIndex = view.getUint32(0, true);
       let chunkData = event.data.slice(4);
       
-      // Decrypt if key is available
       if (cryptoKeyRef.current) {
         try {
           chunkData = await decryptChunk(cryptoKeyRef.current, chunkData);
